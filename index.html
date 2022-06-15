@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Week 5 - Emelies Weather</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-city">
+        <input type="text" class="form-control"id="search-city-input"placeholder="Please enter a city" />
+        <button type="submit" class="btn btn-success">Search</button>
+        <button id="current-location" type="submit" class="btn btn-primary">Current Location</button>
+      </form>
+<br/>
+
+
+
+<div class="row">
+        <div class="col-6">
+          <h2 id="city">City</h2>
+        </div>
+
+        <div class="col-6">
+          <h2 id = "temperature">15°C
+            <a href="#" class="units" id="celsius-link">°C</a> |
+                <a href="#" class="units" id="fahrenheit-link">°F</a>
+          </h2>
+          
+        </div>
+
+        <div class="col-6">
+          <h5 id="day-time"></h5>
+        </div>
+        <div class="col-6">
+          <h5 id="humidity"> 20%</h5>
+        </div>
+        <div class="col-6">
+          <h5 id="sky">☁️ Cloudy</h5></div>
+        <div class="col-6">
+          <h5 id="wind-speed">Wind:2km/h</h5></div>
+
+      </div>
+<br/>
+<p class="forecast">5 day forecast</p>
+
+         <div class="row justify-content-center">
+            <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Sat</h5>
+                  <p class="card-text">☁️</p>
+                 <p class="card-text">20°C/68°F</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Sun</h5>
+                  <p class="card-text">☀️</p>
+                  <p class="card-text">15°C/59°F</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Mon</h5>
+                    <p class="card-text">⛅️</p>
+                    <p class="card-text">18°C/64.4°F</p>
+                  </div>
+                </div>
+              </div>
+               <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Tue</h5>
+                    <p class="card-text">⛈</p>
+                    <p class="card-text">11°C/51.8°F</p>
+                  </div>
+                </div>
+              </div>
+               <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Wed</h5>
+                    <p class="card-text">🌧</p>
+                    <p class="card-text">15°C/59°F</p>
+                  </div>
+                </div>
+              </div>
+             <br/>
+               <p class="signature">Coded by Emelie Jansson</p>
+               
+              
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
