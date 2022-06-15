@@ -1,0 +1,39 @@
+body {
+  margin-top: 50px !important;
+  margin-right: 50px !important;
+  margin-bottom: 50px !important;
+  margin-left: 50px !important;
+}
+
+.container {
+  background-color: #efdbf2;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signature {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.forecast {
+  display: block;
+  text-align: center;
+  border: 2px solid;
+  border-color: #dbcde3;
+  background-color: #dbcde3;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-body {
+  background-color: #dbcde3;
+}
+.card {
+  border-color: #dbcde3 !important;
+  border-style: hidden !important;
+  background-color: #dbcde3 !important;
+  width: 100% !important;
+  height: auto !important;
+}
